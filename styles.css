@@ -32,6 +32,11 @@ a:link {
 .sign-up{
   background-color: red;
   border-radius: 5px;
+  width: 136px;
+  height: 48px;
+  left: 1214px;
+  top: 26px;
+  border-radius: 10px;
 }
 .p1{
   font-size: 30px;
