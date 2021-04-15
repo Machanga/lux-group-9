@@ -8,7 +8,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  bachground-color: #FCC0C0;
+  background-color: #FCC0C0;
 }
 #logo{
   color: #0444C0;
