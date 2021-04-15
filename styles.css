@@ -2,7 +2,72 @@ html body{
     margin: 0px;
     padding: 0px;
 }
-
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header #design{
+    background-color: #FCC0C0;
+  }
+  #logo{
+    color: #0444C0;
+  }
+  #nav{
+    display: inline-block;
+      width: 80%;
+      text-align:  right;
+  }
+  .main-nav-link{
+    margin: 0 ;
+    list-style: none;
+    
+   }
+  a:link {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+  }
+  .nav-link{
+    display: inline-block;
+    padding-left: 20px; 
+     
+  }
+  .sign-up{
+    background-color: red;
+    border-radius: 5px;
+    width: 136px;
+    height: 48px;
+    left: 1214px;
+    top: 26px;
+    border-radius: 10px;
+  }
+  .p1{
+    font-size: 30px;
+    margin-top: 2em;
+  }
+  .btn1{
+     background-color: #0444C0;
+     color: #FFFFFF;
+     font-weight: 700;
+     height: 66px;
+     width: 199.72222900390625px;
+     left: 96.861083984375px;
+     top: 431px;
+     border-radius: 0px;
+     border: 1px solid #0444C0; 
+  }
+  .btn2{
+    height: 66px;
+    width: 199.72222900390625px;
+    left: 336.52783203125px;
+    top: 431px;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    color: #0444C0;
+    border: 1px solid #FFFFFF;
+    font-weight: 700;
+   }
 #languages{
     text-align: center;
     padding: 50px;
