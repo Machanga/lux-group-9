@@ -1,6 +1,8 @@
 
 body{
-  margin-left: 3em;
+/*   margin-left: 3em; */
+  margin: 0px;
+  padding: 0px;
 }
   #header{
   display: flex;
