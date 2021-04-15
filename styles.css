@@ -1,0 +1,138 @@
+html body{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Roboto; */
+}
+
+#languages{
+    text-align: center;
+    padding: 50px;
+}
+#cubejs{
+    text-align: center;
+}
+
+#learn{
+    padding: 50px;
+}
+
+#learn h3{
+    color: #E45050;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+}
+#learn p{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.learn{
+    background-color: #E45050;
+    color: white;
+    text-align: center;
+    height: 66px;
+    width: 200px;
+    left: 100px;
+    top: 1206px;
+    border-radius: 0px;
+}
+
+.github{
+    background-color: white;
+    border: 1px solid #0444C0;
+    color: #0444C0;
+    font-weight: 700;
+    height: 66px;
+    width: 200px;
+    left: 334px;
+    top: 1206px;
+    border-radius: 0px;
+}
+.divider{
+    width: 20px;
+    height: auto;
+    display: inline-block;
+}
+#install h3{
+    line-height: 100.19px;
+    color: black;
+    font-weight: 700;
+    /* padding-bottom: 50px; */
+}
+
+#signup h3{
+    line-height: 100.19px;
+    color: black;
+    font-weight: 700;
+}
+
+#install{
+    background-color: #E6EEFE;
+    text-align: center;
+    padding: 50px 140px;
+}
+
+#install button{
+    background-color: #E45050;
+    color: white;
+    text-align: center;
+    border-radius: 0px;
+    width: 195.65px;
+    height: 66px;
+    top: 1647px;
+    left: 21.41px;
+}
+
+#signup{
+    background-color: #FFF7F7;
+    text-align: center;
+    padding: 50px 140px;
+}
+
+#signup button{
+    background-color:#0444C0;
+    color: white;
+    text-align: center;
+    border: 1px solid #0444C0;
+    height: 66px;
+    width: 200px;
+    left: 973px;
+    top: 1643px;
+    border-radius: 0px;
+}
+
+footer{
+    background-color: #0C43AF;
+    text-align: left;
+    padding: 50px 0px;
+}
+
+footer h5{
+    color:white;
+    font-weight: 700;
+}
+
+footer h4{
+    color: #E45050;
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li{
+    color:white;
+}
+.copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
