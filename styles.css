@@ -48,12 +48,13 @@ a:link {
 .btn1{
    background-color: #0444C0;
    color: #FFFFFF;
+   font-weight: 700;
    height: 66px;
    width: 199.72222900390625px;
    left: 96.861083984375px;
    top: 431px;
    border-radius: 0px;
-
+   border: 1px solid #0444C0; 
 }
 .btn2{
   height: 66px;
@@ -63,6 +64,8 @@ a:link {
   border-radius: 0px;
   background-color: #FFFFFF;
   color: #0444C0;
+  border: 1px solid #FFFFFF;
+  font-weight: 700;
  }
 
 #languages{
