@@ -8,6 +8,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  bachground-color: #FCC0C0;
 }
 #logo{
   color: #0444C0;
@@ -25,7 +26,7 @@ body{
 a:link {
   text-decoration: none;
   font-size: 20px;
-  color: antiquewhite;
+  color: white;
 }
 .nav-link{
   display: inline-block;
