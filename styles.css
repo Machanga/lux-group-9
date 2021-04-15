@@ -8,6 +8,8 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+header #design{
   background-color: #FCC0C0;
 }
 #logo{
