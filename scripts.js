@@ -17,11 +17,10 @@ new fullage("#fullpage", {
         //Add a text
         .fromTo(description, 0.5, {y:"50", opacity:0}, {y:0, opacity:1})
         //Adition of pictures ata time
-        .fromTo(pic2[0 ],1, {opacity:1},{opacity:1})
+        .fromTo(pic2[0 ],1, {opacity:1},{opacity:1});
       //  .fromTo(chairs[1 ],1, {opacity:0},{opacity:1})
-        //.fromTo(chairs[2 ],1, {opacity:0},{opacity:1}); 
+        
 
     }
 }}); 
-var installbutton=document.getElementById("install");
-onkeydown(installbutton.style.background="yellow");
+
