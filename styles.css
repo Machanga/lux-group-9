@@ -54,6 +54,7 @@ nav{
      
   }
   .sign-up{
+    width: 200px;
     background-color: red;
     border: 1px solid red;
     padding:10px;
@@ -80,7 +81,7 @@ nav{
     margin-top: 2em;
   }
   .btn1{
-   width: 7rem;
+   width: 200px;
    height: 3rem;
    transition: width 1s;
    background-color: rgb(63, 63, 170);
@@ -89,7 +90,7 @@ nav{
    font-weight: bolder;
   }
   .btn2{
-    width: 7rem;
+    width: 200px;
     height: 3rem;
     transition: width 1s;
     background-color: rgb(255, 255, 255);
@@ -356,6 +357,21 @@ nav .container{
     border-radius: 0px;
 }
 
+.col-md-4{
+    text-align: right;
+    background-color:white; 
+    border: 1px solid white; 
+    padding: 70px 20px;
+}
+
+.col-md-4 img{
+    width: 70px;
+}
+
+.designthree{
+    width: 90px;
+}
+
 .sql{
     padding: 25px 25px;
 }
@@ -483,6 +499,13 @@ footer ul li{
         padding: 25px;
     }
 
+    .col-md-4{
+        text-align: center;
+    }
+    #sql{
+        text-align: center;
+    }
+
     #contribute{
         text-align: center;
     }
@@ -576,6 +599,13 @@ footer ul li{
 
     #signup h3{
         padding: 25px;
+    }
+
+    .col-md-4{
+        text-align: center;
+    }
+    #sql{
+        text-align: center;
     }
 
     #contribute button{
