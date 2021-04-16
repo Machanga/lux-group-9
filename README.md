@@ -15,7 +15,7 @@
 5. Licensing and copyright information.'
 
 #### Link of Demo
-hhttps://machanga.github.io/lux-group-9/
+https://machanga.github.io/lux-group-9/
 
 #### Setup/Installation Requirements
 1. install any text editor
