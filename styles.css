@@ -170,6 +170,40 @@ html body{
     border-radius: 0px;
 }
 
+.sql{
+    padding: 25px 25px;
+}
+
+#contribute{
+    text-align: center;
+    background-color: #FFF7F7;
+}
+
+#contribute div{
+    padding: 30px 50px;
+}
+#contribute h3{
+    font-weight: 700;
+}
+#contribute button{
+    color: white;
+    width: 250px;
+}
+
+.contribute{
+    text-align: center;
+    background-color: #0444C0;
+    border-radius: 0px;
+    border: 1px solid  #0444C0;
+}
+
+.donate{
+    text-align: center;
+    background-color: #E45050;
+    border-radius: 0px;
+    border: 1px solid #E45050;
+}
+
 footer{
     background-color: #0C43AF;
     text-align: left;
@@ -263,6 +297,32 @@ footer ul li{
         padding: 25px;
     }
 
+    #contribute{
+        text-align: center;
+    }
+    #contribute button{
+        margin: 0px;
+    }
+
+    #contribute .contribute{
+        width: 50%;
+        font-size: 10px;
+        font-weight: 400;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+
+    #contribute .donate{
+        width: 50%;
+        font-size: 10px;
+        margin-right: 5%;
+    }
+
+    #contribute h3{
+        font-size: 24px;
+    }
+
     footer{
         padding: 10px, 0px;
     }
@@ -332,8 +392,21 @@ footer ul li{
         padding: 25px;
     }
 
+    #contribute button{
+        color: white;
+        width: 30%;
+    }
+
+    #contribute .contribute{
+        font-size: 16px;
+    }
+
+    #contribute h3{
+        font-size: 24px;
+    }
+
     footer{
-        padding: 10px, 0px;
+        padding: 10px 0px;
     }
     
     footer .col{
