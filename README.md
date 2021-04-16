@@ -1,13 +1,13 @@
 ## CodeBank Lux-Tech-Group-9
 
-###Collaborators
+### Collaborators
 1. Paul Pennuel
 2. Joseph Mania
 3. Florence Wanjiru
-4. Omotolaani
+4. Omotolani
 5. Stephen Maingi
 
-####Table of content
+#### Table of content
 1. Link to deployed site.
 2. Setup and installations.
 3. Prerequisites.
@@ -15,14 +15,14 @@
 5. Known bugs.
 6. Licensing and copyright information.'
 
-####Link of Demo
+#### Link of Demo
 hhttps://machanga.github.io/lux-group-9/
 
-####Setup/Installation Requirements
+#### Setup/Installation Requirements
 1. install any text editor
 2. Use Chrome to view the application and its console to debug javascript
 
-####Technologies Used
+#### Technologies Used
 This project was created using:
 
 1. CSS.
@@ -30,10 +30,10 @@ This project was created using:
 3. Bootstrap
 4. JavaScript
 
-####Known bugs
+#### Known bugs
 There are no known bugs at the moment.
 
-####License
+#### License
 *{MIT License
 
 Copyright (c) [year] [fullname]
