@@ -8,8 +8,18 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
+
+.zoom {
+    transition: transform .2s; 
+    margin: 0 auto;
+  }
   
-nav{
+.zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  nav{
+    background-color: rgba(150, 52, 52, 0.0);
     position: absolute;
     top:0;
     
@@ -18,7 +28,43 @@ nav{
     padding:1.5rem 0;
     z-index:30;
   }
-  .main-nav-link{
+
+  .navbar-nav{
+    margin: 0 ;
+    list-style: none;
+    
+   }
+
+  nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    /* border-bottom: 1px solid blue; */
+
+    margin-right: 0px;
+    padding: 0px;
+    -webkit-transition: 0.5s ease;
+            transition: 0.5s ease;
+  }
+  nav h2{
+      color: #0444C0;
+  }
+  nav a:hover{
+    cursor: pointer;
+    color: white;
+    -webkit-transition: 0.5s ease;;
+            transition: 0.5s ease;
+    border-bottom:1px solid white;
+    /* width:20px;
+    margin-right:3px;  */
+
+  }
+  nav a:visited{
+        color:seashell;
+        
+  }
+/*
+  .navbar-nav{
     margin: 0 ;
     list-style: none;
     
@@ -29,8 +75,8 @@ nav{
     color: antiquewhite;
     border-bottom: 1px solid blue;
 
-    margin-right: 19px;
-     width:0;
+    margin-right: 0px;
+    padding: 0px;
     -webkit-transition: 0.5s ease;
             transition: 0.5s ease;
   }
@@ -48,25 +94,29 @@ nav{
         color:seashell;
         
   }
-  .nav-link{
+  .nav-item{
     display: inline-block;
     padding-left: 20px; 
      
-  }
+  } */
   .sign-up{
-    width: 200px;
+    width: 150px;
     background-color: red;
     border: 1px solid red;
     padding:10px;
     border-radius: 5px;
   }
   .sign-up:hover{
-      background-color: white;
-      color:red;
+      background-color: #0444C0;
+      color:whitw;
        
   }
+  .navbar-toggler{
+    background-color: #E6EEFE;
+    margin-right: 20px;
+  }
 
-  /* nav underlines */
+  /* nav underlines
 .border{
     position: absolute;
     width:30%;
@@ -74,7 +124,7 @@ nav{
     background-color: #fff;
     bottom:0;
     left:0;
-}
+} */
 
 .p1{
     font-size: 30px;
@@ -171,7 +221,7 @@ nav .container{
     margin-left: 3em;
     z-index:30;
     line-height: 2rem;
-    top:100px;
+    top:150px;
 
   }
 /* thee paragraphs on the main page */
@@ -185,108 +235,7 @@ nav .container{
     font-size: 18px;
     line-height: 21.09px;
  }
- .anim div:nth-child(1){
-    animation: bounce 5s 0.1s infinite;
-    }
-    .anim div:nth-child(2){
-        animation: bounce 5s 0.2s infinite;
-        }
-        .anim div:nth-child(3){
-            animation: bounce 5s 0.3s infinite;
-            }
-            .anim div:nth-child(4){
-                animation: bounce 5s 0.4s infinite;
-                }
-                .anim div:nth-child(5){
-                    animation: bounce 5s 0.5s infinite;
-                }
-                @keyframes bounce{
-                    0%{
-                        transform: translateY(0);
-                    }
-                    10%{
-                        transform: translateY(0);
-                    }
-                    15%{
-                        transform: translateY(-100%);
-                    }
-                    20%{
-                        transform: translateY(0);
-                    }
-                    100%{
-                        transform: translateY(0);
-                    }
-                }
-/* html body{
-    margin: 0px;
-    padding: 0px;
-}
-#header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  header #design{
-    background-color: #FCC0C0;
-  }
-  #logo{
-    color: #0444C0;
-  }
-  #nav{
-    display: inline-block;
-      width: 80%;
-      text-align:  right;
-  }
-  .main-nav-link{
-    margin: 0 ;
-    list-style: none;
-    
-   }
-  a:link {
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-  }
-  .nav-link{
-    display: inline-block;
-    padding-left: 20px; 
-     
-  }
-  .sign-up{
-    background-color: red;
-    border-radius: 5px;
-    width: 136px;
-    height: 48px;
-    left: 1214px;
-    top: 26px;
-    border-radius: 10px;
-  }
-  .p1{
-    font-size: 30px;
-    margin-top: 2em;
-  }
-  .btn1{
-     background-color: #0444C0;
-     color: #FFFFFF;
-     font-weight: 700;
-     height: 66px;
-     width: 199.72222900390625px;
-     left: 96.861083984375px;
-     top: 431px;
-     border-radius: 0px;
-     border: 1px solid #0444C0; 
-  }
-  .btn2{
-    height: 66px;
-    width: 199.72222900390625px;
-    left: 336.52783203125px;
-    top: 431px;
-    border-radius: 0px;
-    background-color: #FFFFFF;
-    color: #0444C0;
-    border: 1px solid #FFFFFF;
-    font-weight: 700;
-   } */
+
 #languages{
     text-align: center;
     padding: 50px;
@@ -480,6 +429,62 @@ footer ul li{
     body{
         width: 100%;
     }
+
+
+.p2{
+    font-size: 14px;
+    text-align: justify;
+}
+
+#design {
+    text-align: center;
+}
+
+.btn1{
+    background-color: #E6EEFE;
+    color: #0444C0;
+    border: 1px solid white;
+}
+
+.btn2{
+    background-color: #0444C0;
+    color: white;
+    border: 1px solid #0444C0;
+}
+    
+.blueleft{
+    width: 50%;
+    height: 50%;
+}
+
+.pinkbackground{
+    width: 80%;
+    height: 100%;
+}
+.btn1{
+    width: 30%;
+}
+.btn2{
+    width: 30%;
+}
+
+#design{
+    /* text-align: center; */
+    font-weight: 700;
+    margin-left: 10px;
+    /* z-index:30; */
+    line-height: 0px;
+    top:230px;
+
+  }
+
+  .p1{
+    font-weight: 1200;
+    font-size: 20px;
+    line-height:30px;
+}
+
+    
     #languages{
         width: 100%;
         padding-bottom: 10px;
@@ -495,10 +500,17 @@ footer ul li{
     #learn h3{
         font-size: 18px;
     }
+
+    .github{
+        padding-right: 10px; 
+        font-size: 10px;
+    }
     #learn button{
         text-align: center;
         font-size: 12px;
-        margin-left: 5%;
+        padding-right: 10px; 
+        /* margin-left: 5%;
+        padding-right: 5px; */
         width: 40%;
     }
 
@@ -536,6 +548,7 @@ footer ul li{
     }
     #sql{
         text-align: center;
+        padding: 10px;
     }
 
     #contribute{
@@ -582,7 +595,7 @@ footer ul li{
         font-size: 8px;
     }
     footer h4{
-        font-size: 8px;
+        font-size: 10px;
         text-align: center;
     }
     footer h5{
@@ -594,6 +607,48 @@ footer ul li{
     body{
         width: 100%;
     }
+
+    #header{
+        height: 50%;
+        padding: 50px;
+    }
+    .p2{
+        font-size: 18px;
+        text-align: justify;
+    }
+        
+    .blueleft{
+        width: 50%;
+        height: 50%;
+    }
+    
+    .pinkbackground{
+        width: 80%;
+        height: 100%;
+    }
+    .btn1{
+        width: 30%;
+    }
+    .btn2{
+        width: 30%;
+    }
+    
+    #design{
+        /* text-align: center; */
+        font-weight: 700;
+        margin-left: 10px;
+        /* z-index:30; */
+        line-height: 0px;
+        top:230px;
+    
+      }
+    
+      .p1{
+        font-weight: 1200;
+        font-size: 25px;
+        line-height:30px;
+    }
+    
     #languages{
         width: 100%;
         padding-bottom: 10px;
