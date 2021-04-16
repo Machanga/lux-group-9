@@ -4,7 +4,7 @@
 1. Paul Pennuel
 2. Joseph Mania
 3. Florence Wanjiru
-4. Omotolani
+4. Omotolani Shodunke 
 5. Stephen Maingi
 
 #### Table of content
@@ -12,8 +12,7 @@
 2. Setup and installations.
 3. Prerequisites.
 4. Technologies used.
-5. Known bugs.
-6. Licensing and copyright information.'
+5. Licensing and copyright information.'
 
 #### Link of Demo
 hhttps://machanga.github.io/lux-group-9/
@@ -29,9 +28,6 @@ This project was created using:
 2. HTML.
 3. Bootstrap
 4. JavaScript
-
-#### Known bugs
-There are no known bugs at the moment.
 
 #### License
 *{MIT License
