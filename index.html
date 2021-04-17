@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -14,7 +15,7 @@
     <script src="./fullpage.min.js"></script>
 
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js"></script>
+    <script src="scipts.js"></script> 
     <title>CodeBank</title>
 </head>
 <body>
@@ -23,16 +24,17 @@
             <div class="container">
                 <a class="navbar-brand" href="index.html"><h2>CodeBank</h2></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbaritems" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                </span>  
+                <span class="navbar-toggler-icon" style="text-align: right; font-size: 10px;"> <strong></strong>
+                </span> 
+                <span></span> 
               </button>
               
               <div class="collapse navbar-collapse " id="navbaritems">
                 <ul class="navbar-nav ml-auto">
-                  <li class="nav-item"><a class="nav-link" href="">How It Works</a></li>
-                  <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
-                  <li class="nav-item"><a class="nav-link" href="">Installations</a></li>
-                  <li class="nav-item"><a class="nav-link" href="">Resources</a></li>
+                  <li class="nav-item "><button class="how"><a class="nav-link" href="">How It Works</a></button></a></li>
+                  <li class="nav-item "><button class="blog"><a class="nav-link" href="">Blog</a></button></li>
+                  <li class="nav-item "><button class="installations"><a class="nav-link" href="">Installations</a></button></li>
+                  <li class="nav-item "><button class="one"><a class="nav-link" href="">Resources</a></button></li>
                   <li class="nav-item"><button class="sign-up"><a class="nav-link" href="">Sign Up</a></button></li>
                 </ul>
               </div>
@@ -81,15 +83,15 @@
             
             <div class="container">
                 <div class="row" id="learn">
-                    <div class="col-md-6" onmouseover="change(this)" onmouseout="change2(this)" id="description2">
+                    <div class="col-md-6" onmouseover="change(this)" onmouseout="change2(this)" id="description2" data-aos="zoom-in-right" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
                         <h3>Developers Helping Hand</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices gravida dictum fusce ut placerat orci. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices gravida dictum fusce ut placerat orci. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl.</p>
-                        <button type="button" class="btn btn-lg learn zoom" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">Learn More</button>
+                        <button type="button" class="btn btn-lg learn zoom">Learn More</button>
                         <div id="divider"></div>
                         <button type="button" class="btn btn-lg github zoom" >View on GitHub</button>
                     </div>
-                    <div class="col-md-6" id="cubejs"> 
+                    <div class="col-md-6" id="cubejs" data-aos="flip-left"> 
                         <img src="images/cubejs.png" alt="Cubejs Schema" width="400px">
                     </div>
                 </div>
@@ -200,7 +202,7 @@
         </section>
 
         <section id="contribute">
-            <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <div data-aos="zoom-in-right" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
                 <h3>Help us grow this project. Partner with us today.</h3>
                 <button type="button" class="btn btn-lg contribute zoom" onmouseover="cont(this)" onmouseout="cont2(this)">Become a Contributor</button>
                 <div id="divider"></div>
@@ -283,5 +285,9 @@
     
     }
 </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
